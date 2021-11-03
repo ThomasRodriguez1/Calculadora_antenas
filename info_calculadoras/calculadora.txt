@@ -1,0 +1,25 @@
+Calculadora para 
+    -Microcintas
+    -Cables coaxiales
+    -Línea bifilar o de alambres paralelos
+
+-Determinar impedancia característica a partir de las dimensiones físicas de la línea de
+-Determinar dimensiones físicas de la línea
+-Seleccionar diversos materiales Dieléctricos como:
+    -FR4
+    -Fibra de vidrio
+    -PVC
+    -Duroid
+    -Mylar
+    -Polietileno
+    -Poliestireno
+    -Etc.
+
+-Seleccionar materiales metálicos como:
+    -cobre 
+    -plata 
+    -oro 
+    -aluminio
+    -fierro
+    -otros más
+
