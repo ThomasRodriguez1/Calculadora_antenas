@@ -31,7 +31,7 @@ function cambio_medida(medida){
         for(;index<length;index++){
             if(div_medidas[index].value!=null || div_medidas[index].value!="" ){
                 a=div_medidas[index].value*10;
-                div_medidas[index].value=a.toFixed(3);
+                div_medidas[index].value=a.toPrecision(4);
             }
         }
         index=0;
@@ -47,7 +47,7 @@ function cambio_medida(medida){
         for(;index<length;index++){
             if(div_medidas[index].value!=null || div_medidas[index].value!="" ){
                 a=div_medidas[index].value*.1;
-                div_medidas[index].value=a.toFixed(3);
+                div_medidas[index].value=a.toPrecision(4);
             }
         }
         index=0;
@@ -83,6 +83,11 @@ document.getElementById("medida_diametros").addEventListener('change',function()
     var medida = document.getElementById("medida_diametros").value;
     cambio_medida(medida);
 })
+document.getElementById("medida_diametro_conductores").addEventListener('change',function(){	
+    var medida = document.getElementById("medida_diametro_conductores").value;
+    cambio_medida(medida);
+})
+//Listener cambio de calculadora y borrar datos inputs
  document.getElementById("tipo").addEventListener('change',function Tipo_Linea(){
     var select=document.getElementById("tipo");
     var opcion=select.value;
@@ -161,4 +166,6 @@ document.getElementById("medida_diametros").addEventListener('change',function()
 
     }
 });
+
+
 

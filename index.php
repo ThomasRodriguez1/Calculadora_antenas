@@ -139,8 +139,10 @@
           <div class="bifilar" id="bifilar">
             <div class="Seleccion_lineas">
               <div>
-                <label class="formulario_label" for="Diametro_conductor">Diametro del conductor(d)</label>
-                <input class="formulario_medidas" type="text" id="Diametro_conductor">
+                <div>
+                  <label class="formulario_label" for="Diametro_conductor">Diametro del conductor(d)</label>
+                  <input class="formulario_medidas" type="text" id="Diametro_conductor">
+                </div>
               </div>
               
               <div>
@@ -264,6 +266,7 @@
             <div>
               <label class="formulario_label_medidas" for="medida_diametro">Indique tamaño</label>
               <select class="formulario_select_medidas" id="medida_diametro"> 
+                <optgroup>
                   <option  value="1">cm</option>
                   <option  value="2">mm</option>
                 </optgroup>
@@ -284,12 +287,11 @@
                 <label class="formulario_label" for="Distancia_conductores">Distancia centro a centro entre conductores(D)</label>
                 <input class="formulario_medidas" type="text" id="Distancia_conductores" >
               </div>
-              
-              
+
             </div>
             <div>
-              <label class="formulario_label_medidas" for="medida_diametros">Indique tamaño</label>
-              <select class="formulario_select_medidas" id="medida_diametros"> 
+              <label class="formulario_label_medidas" for="medida_diametro_conductores">Indique tamaño</label>
+              <select class="formulario_select_medidas" id="medida_diametro_conductores"> 
                 <optgroup>
                   <option  value="1">cm</option>
                   <option  value="2">mm</option>
