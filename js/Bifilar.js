@@ -32,6 +32,12 @@ function Calculo_impedancia_bifilar(){
         swal("Datos faltantes!", "", "error");
         return;
     }
+
+    if(d>D){
+        swal("Datos incongruentes","El valor del diametro del conductor(d) no puede ser mas grande que la distancia entre conductores(D)","error")
+        return;
+    }
+    
                                                 //ARCO COSENO HIPERBOLICO
     z0=(120/Math.sqrt(permitividad_relativa))*Math.acosh(D/d);
 
